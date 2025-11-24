@@ -25,7 +25,7 @@ const AboutUsCompact = () => {
               className="w-full h-[500px] object-cover rounded-2xl"
             />
             {/* Years Badge */}
-            <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6">
+            <div className="absolute -bottom-6 right-0 md:-right-6 bg-white rounded-2xl p-6">
               <div className="text-center">
                 <div className="text-4xl font-bold text-[#005aa8]">20</div>
                 <div className="text-lg font-semibold text-[#ed6605]">
