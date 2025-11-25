@@ -49,13 +49,13 @@ const FAQ = () => {
 
   const FAQItem = ({ item, index, isOpen }) => (
     <motion.div
-      className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden mb-4"
+      className="bg-white rounded-xl border border-gray-200 overflow-hidden mb-4"
       initial={{ opacity: 0, y: 20 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
       <button
-        className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors"
+        className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-100 transition-colors"
         onClick={() => toggleItem(index)}
       >
         <div className="flex items-start space-x-4">
@@ -107,7 +107,7 @@ const FAQ = () => {
   );
 
   return (
-    <section className="py-20 pt-40 px-4 bg-gray-50" ref={ref}>
+    <section className="py-20 pt-40 px-4" ref={ref}>
       <div className="container mx-auto max-w-4xl">
         <motion.div
           className="text-center mb-12"
@@ -115,7 +115,10 @@ const FAQ = () => {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-4xl font-bold text-[#005aa8] mb-4">Solar FAQ</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#005aa8] mb-4">
+            Solar FAQ
+          </h1>
+          <div className="w-24 h-1 bg-[#ed6605] rounded-full mx-auto mb-6"></div>
           <p className="text-gray-600">
             Find answers to common solar energy questions
           </p>

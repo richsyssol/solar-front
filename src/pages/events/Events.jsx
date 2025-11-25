@@ -168,7 +168,7 @@ const Events = () => {
 
   const EventCard = ({ event, isPast = false }) => (
     <motion.div
-      className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden group hover:shadow-xl transition-all duration-300"
+      className="bg-white rounded-xl border border-gray-200 overflow-hidden group transition-all duration-300"
       whileHover={{ scale: 1.02, y: -5 }}
       initial={{ opacity: 0, y: 30 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -233,7 +233,7 @@ const Events = () => {
   );
 
   return (
-    <section className="py-20 pt-40 px-4 bg-gray-50" ref={ref}>
+    <section className="py-20 pt-40 px-4" ref={ref}>
       <div className="container mx-auto max-w-7xl">
         {/* Main Header */}
         <motion.div

@@ -118,7 +118,7 @@ const Participent = () => {
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-4xl font-bold text-[#005aa8] mb-4">
-            MASMA EXPO 2024 Participants
+            MASMA EXPO PARTICIPANTS
           </h2>
           <p className="text-xl text-[#ed6605] max-w-2xl mx-auto">
             Explore our comprehensive range of solar energy services and

@@ -139,7 +139,7 @@ const Circulars = () => {
 
   const DocumentCard = ({ document, index }) => (
     <motion.div
-      className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden group hover:shadow-xl transition-all duration-300 cursor-pointer"
+      className="bg-white rounded-xl border border-gray-200 overflow-hidden group transition-all duration-300 cursor-pointer"
       whileHover={{ scale: 1.02, y: -5 }}
       initial={{ opacity: 0, y: 30 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -187,10 +187,7 @@ const Circulars = () => {
   );
 
   return (
-    <section
-      className="py-20 pt-40 px-4 bg-linear-to-br from-gray-50 to-blue-50"
-      ref={ref}
-    >
+    <section className="py-20 pt-40 px-4" ref={ref}>
       <div className="container mx-auto max-w-6xl">
         {/* Main Header */}
         <motion.div
@@ -214,14 +211,14 @@ const Circulars = () => {
           {circularSections.map((section, sectionIndex) => (
             <motion.section
               key={section.id}
-              className="bg-white rounded-2xl shadow-xl p-8"
+              className=" rounded-2xl p-8"
               initial={{ opacity: 0, y: 50 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: sectionIndex * 0.2 }}
             >
               {/* Section Header */}
               <div className="flex items-center space-x-4 mb-8">
-                <div className="shrink-0 w-16 h-16 bg-linear-to-br from-[#005aa8] to-blue-600 rounded-2xl flex items-center justify-center text-white shadow-lg">
+                <div className="shrink-0 w-16 h-16 bg-linear-to-br from-[#005aa8] to-blue-600 rounded-2xl flex items-center justify-center text-white">
                   {section.icon}
                 </div>
                 <div>

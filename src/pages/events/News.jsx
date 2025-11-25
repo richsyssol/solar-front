@@ -174,7 +174,7 @@ const News = () => {
 
   const NewsCard = ({ news }) => (
     <motion.div
-      className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden group hover:shadow-xl transition-all duration-300"
+      className="bg-white rounded-xl border border-gray-200 overflow-hidden group transition-all duration-300"
       whileHover={{ scale: 1.02, y: -5 }}
       initial={{ opacity: 0, y: 30 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -313,7 +313,7 @@ const News = () => {
                     {/* Expand Button */}
                     <button
                       onClick={() => openFullScreenImage(currentImageIndex)}
-                      className="absolute top-4 right-4 w-10 h-10 bg-white/80 rounded-full flex items-center justify-center hover:bg-white transition-colors shadow-lg"
+                      className="absolute top-4 right-4 w-10 h-10 bg-white/80 rounded-full flex items-center justify-center hover:bg-white transition-colors "
                     >
                       <FaExpand className="text-gray-700" />
                     </button>

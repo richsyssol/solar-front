@@ -186,6 +186,7 @@ const ReligionalChap = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-[#005aa8] mb-4">
             Directors
           </h1>
+          <div className="w-24 h-1 bg-[#ed6605] rounded-full mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Meet the dedicated professionals driving MASMA's mission forward
             with expertise and commitment

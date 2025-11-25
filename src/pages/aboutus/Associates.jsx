@@ -69,7 +69,7 @@ const Associates = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-gray-50 pt-40">
+    <section className="py-20 px-4 pt-40">
       <div className="container mx-auto max-w-7xl">
         {/* Main Header */}
         <motion.div
@@ -81,6 +81,7 @@ const Associates = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-[#005aa8] mb-4">
             Our Associate Companies
           </h1>
+          <div className="w-24 h-1 bg-[#ed6605] rounded-full mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Partnering with leading companies in the solar industry to drive
             sustainable energy adoption across Maharashtra
@@ -98,7 +99,7 @@ const Associates = () => {
             {associateCompanies.map((company, index) => (
               <motion.div
                 key={company.id}
-                className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden group hover:shadow-xl transition-all duration-300"
+                className="bg-white rounded-xl border border-gray-200 overflow-hidden group transition-all duration-300"
                 whileHover={{ scale: 1.05, y: -5 }}
                 initial={{ opacity: 0, y: 30 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}

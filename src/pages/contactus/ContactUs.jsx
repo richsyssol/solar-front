@@ -91,7 +91,7 @@ const ContactUs = () => {
 
   const ContactCard = ({ contact, index }) => (
     <motion.div
-      className="bg-white rounded-xl shadow-lg p-6 border border-gray-200 hover:shadow-xl transition-all duration-300"
+      className="bg-white rounded-xl p-6 border border-gray-200 transition-all duration-300"
       whileHover={{ scale: 1.05, y: -5 }}
       initial={{ opacity: 0, y: 30 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -114,7 +114,7 @@ const ContactUs = () => {
   );
 
   return (
-    <section className="min-h-screen bg-linear-to-br from-gray-50 to-blue-50 py-20 pt-40 px-4">
+    <section className="min-h-screen py-20 pt-40 px-4">
       <div className="container mx-auto max-w-7xl">
         {/* Main Header */}
         <motion.div
@@ -150,7 +150,7 @@ const ContactUs = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* Contact Form */}
             <motion.div
-              className="lg:col-span-2 bg-white rounded-2xl shadow-xl p-8"
+              className="lg:col-span-2 bg-white rounded-2xl p-8"
               initial={{ opacity: 0, x: -50 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.4 }}
@@ -285,7 +285,7 @@ const ContactUs = () => {
                 <motion.button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full flex items-center justify-center space-x-3 py-4 bg-[#ed6605] text-white rounded-lg font-semibold text-lg hover:from-blue-600 hover:to-blue-700 transition-all shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full flex items-center justify-center space-x-3 py-4 bg-[#ed6605] text-white rounded-lg font-semibold text-lg hover:from-blue-600 hover:to-blue-700 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                   whileHover={{ scale: isSubmitting ? 1 : 1.02 }}
                   whileTap={{ scale: 0.98 }}
                 >
@@ -312,7 +312,7 @@ const ContactUs = () => {
               transition={{ duration: 0.8, delay: 0.6 }}
             >
               {/* Regional Offices */}
-              <div className="bg-white rounded-2xl shadow-xl p-6">
+              <div className="bg-white rounded-2xl p-6">
                 <h3 className="text-2xl font-bold text-[#005aa8] mb-4">Map</h3>
                 <div className="space-y-4">
                   <iframe

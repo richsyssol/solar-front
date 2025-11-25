@@ -237,6 +237,7 @@ const OurObjective = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-[#005aa8] mb-4">
             Our Guiding Principles
           </h1>
+          <div className="w-24 h-1 bg-[#ed6605] rounded-full mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             MASMA (The Maharashtra Solar Manufactures' Association) - Driving
             solar energy adoption through unity, training, and ethical
@@ -348,9 +349,10 @@ const OurObjective = () => {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-[#ed6605] rounded-2xl text-white mb-4">
                 <FaRocket className="text-2xl" />
               </div>
-              <h2 className="text-3xl font-bold text-[#005aa8] mb-4">
+              <h1 className="text-3xl md:text-5xl font-bold text-[#005aa8] mb-4">
                 MASMA Objectives & Mission
-              </h2>
+              </h1>
+              <div className="w-24 h-1 bg-[#ed6605] rounded-full mx-auto mb-6"></div>
               <p className="text-gray-600 text-lg">
                 Uniting the solar industry and driving sustainable energy
                 adoption across Maharashtra
@@ -385,9 +387,10 @@ const OurObjective = () => {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-[#ed6605] rounded-2xl text-white mb-4">
                 <FaUserTie className="text-2xl" />
               </div>
-              <h2 className="text-3xl font-bold text-[#005aa8] mb-4">
+              <h1 className="text-3xl md:text-5xl font-bold text-[#005aa8] mb-4">
                 Duties and Responsibilities of Directors
-              </h2>
+              </h1>
+              <div className="w-24 h-1 bg-[#ed6605] rounded-full mx-auto mb-6"></div>
               <p className="text-gray-600 text-lg">
                 Leadership commitments for driving MASMA's growth and member
                 services
@@ -425,9 +428,10 @@ const OurObjective = () => {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-[#ed6605] rounded-2xl text-white mb-4">
                 <FaShieldAlt className="text-2xl" />
               </div>
-              <h2 className="text-3xl font-bold text-[#005aa8] mb-4">
+              <h1 className="text-3xl md:text-5xl font-bold text-[#005aa8] mb-4">
                 Ethical Standards
-              </h2>
+              </h1>
+              <div className="w-24 h-1 bg-[#ed6605] rounded-full mx-auto mb-6"></div>
               <p className="text-gray-600 text-lg">
                 Commitment to integrity, transparency, and quality in all our
                 endeavors
