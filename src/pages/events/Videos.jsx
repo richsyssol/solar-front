@@ -262,7 +262,7 @@ const Videos = () => {
   );
 
   return (
-    <section className="py-20 px-4 bg-gray-50" ref={ref}>
+    <section className="py-20 pt-40 px-4 bg-gray-50" ref={ref}>
       <div className="container mx-auto max-w-7xl">
         {/* Main Header */}
         <motion.div

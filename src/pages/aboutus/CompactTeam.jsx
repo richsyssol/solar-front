@@ -227,7 +227,7 @@ const CompactTeam = () => {
                       <h3 className="text-lg font-bold text-gray-800 mb-2">
                         {member.name}
                       </h3>
-                      <p className="text-[#ed6605] font-medium text-sm">
+                      <p className="text-[#005aa8] font-medium text-sm">
                         {member.position}
                       </p>
                     </div>

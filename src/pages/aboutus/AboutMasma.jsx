@@ -25,7 +25,7 @@ const AboutMasma = () => {
               <img
                 src={founder}
                 alt="MASMA Association"
-                className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] object-cover rounded-2xl shadow-lg"
+                className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] object-cover rounded-2xl"
               />
 
               {/* Overlay for better text readability on small screens */}
@@ -33,7 +33,7 @@ const AboutMasma = () => {
             </div>
 
             {/* Years Badge - Responsive positioning */}
-            <div className="absolute -bottom-4 left-0 right-0 mx-auto lg:mx-0 lg:-bottom-6 lg:right-0 lg:left-auto bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 shadow-lg max-w-[280px] lg:max-w-none">
+            <div className="absolute -bottom-4 left-0 right-0 mx-auto lg:mx-0 lg:-bottom-6 lg:right-0 lg:left-auto bg-white rounded-xl lg:rounded-2xl p-4 lg:p-6 max-w-[280px] lg:max-w-none">
               <div className="text-center">
                 <div className="text-lg sm:text-xl lg:text-2xl font-bold text-[#005aa8] leading-tight">
                   Mr. Shashikant Wakade
@@ -62,7 +62,7 @@ const AboutMasma = () => {
             </div>
 
             {/* President's Message Section */}
-            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-4 md:p-6 border-l-4 border-[#ed6605]">
+            <div className="backdrop-blur-sm rounded-xl p-4 md:p-6">
               <h3 className="text-xl sm:text-2xl font-semibold text-[#ed6605] mb-3">
                 President's Message
               </h3>
@@ -118,15 +118,15 @@ const AboutMasma = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-white rounded-xl p-6 text-center shadow-lg border border-gray-200">
+            <div className="bg-white rounded-xl p-6 text-center border border-gray-200">
               <div className="text-2xl font-bold text-[#005aa8] mb-2">20+</div>
               <div className="text-gray-600">Years of Experience</div>
             </div>
-            <div className="bg-white rounded-xl p-6 text-center shadow-lg border border-gray-200">
+            <div className="bg-white rounded-xl p-6 text-center border border-gray-200">
               <div className="text-2xl font-bold text-[#005aa8] mb-2">500+</div>
               <div className="text-gray-600">Member Companies</div>
             </div>
-            <div className="bg-white rounded-xl p-6 text-center shadow-lg border border-gray-200">
+            <div className="bg-white rounded-xl p-6 text-center border border-gray-200">
               <div className="text-2xl font-bold text-[#005aa8] mb-2">
                 1000+
               </div>
@@ -142,15 +142,15 @@ const AboutMasma = () => {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          <div className="bg-white rounded-lg p-4 text-center shadow border border-gray-200">
+          <div className="bg-white rounded-lg p-4 text-center border border-gray-200">
             <div className="text-lg font-bold text-[#005aa8]">20+</div>
             <div className="text-xs text-gray-600 mt-1">Years</div>
           </div>
-          <div className="bg-white rounded-lg p-4 text-center shadow border border-gray-200">
+          <div className="bg-white rounded-lg p-4 text-center border border-gray-200">
             <div className="text-lg font-bold text-[#005aa8]">500+</div>
             <div className="text-xs text-gray-600 mt-1">Members</div>
           </div>
-          <div className="bg-white rounded-lg p-4 text-center shadow border border-gray-200">
+          <div className="bg-white rounded-lg p-4 text-center border border-gray-200">
             <div className="text-lg font-bold text-[#005aa8]">1000+</div>
             <div className="text-xs text-gray-600 mt-1">Projects</div>
           </div>
